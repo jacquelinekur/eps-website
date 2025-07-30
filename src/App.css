@@ -1,3 +1,40 @@
+.parent{
+  position: relative;
+}
+
+.nav{
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+  z-index: 100;
+}
+
+.nav ul{
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 18px;
+  position: absolute;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+}
+
+#nav-logo{
+  width: 100px;
+  position: absolute;
+  left: 0;
+}
+
 .background-container {
   height: 100vh;
   width: 100%;
@@ -27,7 +64,7 @@
   }
 }
 
-img {
+.bg-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -38,26 +75,26 @@ img {
   animation: fade 12s ease-out infinite;
 }
 
-img:nth-of-type(1) {
+.bg-img:nth-of-type(1) {
   animation-delay: 0s;
 }
 
-img:nth-of-type(2) {
+.bg-img:nth-of-type(2) {
   animation-delay: 2s;
 }
 
-img:nth-of-type(3) {
+.bg-img:nth-of-type(3) {
   animation-delay: 4s;
 }
 
-img:nth-of-type(4) {
+.bg-img:nth-of-type(4) {
   animation-delay: 6s;
 }
 
-img:nth-of-type(5) {
+.bg-img:nth-of-type(5) {
   animation-delay: 8s;
 }
 
-img:nth-of-type(6) {
+.bg-img:nth-of-type(6) {
   animation-delay: 10s;
 }
