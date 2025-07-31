@@ -1,9 +1,3 @@
-.parent{
-  position: relative;
-  z-index: 10000;
-}
-
-
 .nav{
   color: white;
   position: relative;
@@ -34,7 +28,7 @@
 }
 
 #nav-logo{
-  width: 100px;
+  width: 110px;
   position: absolute;
   left: 0;
   display: flex;

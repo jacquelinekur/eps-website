@@ -5,7 +5,7 @@ import logo from '../assets/eps_white.png'
 
 function Nav() {
   return (
-    <div className='parent'>
+    <>
       <nav className='nav'>
         <Link to='/'><img id='nav-logo' src={logo} alt="" /></Link>
         <ul>
@@ -20,7 +20,7 @@ function Nav() {
             </li>
         </ul>
       </nav>
-    </div>
+    </>
   )
 }
 

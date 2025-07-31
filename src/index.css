@@ -1,13 +1,14 @@
 @font-face {
-      font-family: 'Söhne'; 
-      src: local('Söhne'),
-           url('../fonts/Söhne-Buch.otf') format('otf'),
-    }
-    
-*{
+  font-family: 'Söhne';
+  src: local('Söhne'),
+    url('./fonts/Söhne/Söhne-Halbfett.otf') format('opentype');
+  font-style: normal;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Söhne', sans-serif;
-}
 
+}
