@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Söhne-Halbfett';
+  src: local('Söhne'),
+   url('./fonts/Söhne/Söhne-Halbfett.otf') format('opentype');
+  font-style: normal;
+  font-weight: 300;
+}
+
 .nav{
   color: white;
   position: relative;
@@ -13,8 +21,6 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  font-size: 21px;
-  font-weight: 400;
   position: absolute;
   right: 0;
   margin: 0 1rem;
@@ -22,6 +28,9 @@
 
 .link{
   text-decoration: none;
+  font-family: 'Söhne-Halbfett', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
   color: white;
   position: absolute;
   right: 0;
@@ -32,6 +41,7 @@
   position: absolute;
   left: 0;
   display: flex;
+  margin: 1rem 1rem;
 }
 
 .background-container {

@@ -7,26 +7,28 @@ function About() {
   return (
     <div>
       <img id='cover-img' src={cover_img} alt="" />
-      <div>
-        <h4>About Us</h4>
-        <p>EPS was founded in 2013. We are a general contractor company for commercial and private residentail projects.
-          <br />
+      <div className='about-section'>
+        <h4 className='about-heading'>About Us</h4>
+        <p className='about-text'>EPS was founded in 2013 by Indrawati Sumadi and Lily Ang. We are a general contractor company for commercial and private residentail projects.
+          <br /><br />
           We aim to build comfortable homes and residences, to cater to clients' individual needs, and to prioritize 
           quality in all that we do.
-          <br />
+          <br /><br />
           Our services include residential construction, renovation, maintenance, and interior jobs.
         </p>
       </div>
-      <img src={img2} alt="" />
-      <div>
-        <h4>Mission</h4>
-        <p>
-
+      <div className='about-img-container'>
+        <img id='about-img2' src={img2} alt="" />
+      </div>
+      <div className='about-section'>
+        <h4 className='about-heading'>Mission</h4>
+        <p className='about-text'>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia odit pariatur commodi consequatur similique minima a fugit ratione iste dolore.
         </p>
       </div>
-      <div>
-        <h4>Vision</h4>
-        <p>
+      <div className='about-section'>
+        <h4 className='about-heading'>Vision</h4>
+        <p className='about-text'>
           To become a leading building and design company in Indonesia, delivering exceptional quality and innovative 
           design for residential, commercial, and office spaces.
         </p>

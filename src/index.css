@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'Söhne';
+  font-family: 'Söhne-Buch';
   src: local('Söhne'),
-   url('./fonts/Söhne/Söhne-Buch.otf') format('opentype'),
-   url('./fonts/Söhne/Söhne-Halbfett.otf') format('opentype');
+   url('./fonts/Söhne/Söhne-Buch.otf') format('opentype');
   font-style: normal;
 }
 
@@ -10,6 +9,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Söhne', sans-serif;
-
+  font-family: 'Söhne-Buch', sans-serif;
 }
