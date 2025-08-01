@@ -1,0 +1,86 @@
+#cover-img{
+    width: 100%;
+}
+
+.pages-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 2rem 6rem 2rem;
+}
+
+.pages-heading{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.pages-text{
+    font-size: 30px;
+    width: 60%;
+    font-weight: lighter;
+}
+
+.about-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+#about-img2{
+    width: 95%;
+}
+
+.contact-container{
+    width: 60%;
+}
+
+.contact-text{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+.form-input{
+    font-size: 30px;
+    font-weight: 100;
+    border: transparent;
+    border-bottom: solid 1px;
+    margin-top: 2rem;
+    padding-bottom: 0.25rem;
+}
+
+.form-txtArea{
+    font-size: 30px;
+    font-weight: 100;
+    border: transparent;
+    border-bottom: solid 1px;
+    margin-top: 2rem;
+    height: 250px;
+}
+
+.btn-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#send-btn{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 22px;
+    font-weight: lighter;
+    border: transparent;
+    background-color: transparent;
+}
+
+#arrow-img{
+    width: 43px;
+}
+
+#send-btn:hover{
+    cursor: pointer;
+}
