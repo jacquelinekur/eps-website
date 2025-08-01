@@ -44,6 +44,37 @@
   margin: 1rem 1rem;
 }
 
+/* alternate nav bar css */
+.nav-project{
+  color: black;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.nav-project ul{
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  right: 0;
+  margin: 0 1rem;
+}
+
+.link-project{
+  text-decoration: none;
+  font-family: 'Söhne-Halbfett', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  color: black;
+  position: absolute;
+  right: 0;
+}
+
 .background-container {
   height: 100vh;
   width: 100%;
