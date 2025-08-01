@@ -14,6 +14,10 @@
    width: 460px;
 }
 
+.project-img:hover{
+    opacity: 70%;
+}
+
 .project-name{
     color: black;
     font-size: 22px;
