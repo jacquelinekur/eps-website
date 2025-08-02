@@ -1,0 +1,16 @@
+.footer-line{
+    border: solid 0.5px;
+    margin: 3rem 2rem 0 2rem;
+}
+
+.footer-container{
+    display: flex;
+    margin: 2rem 2rem 4rem 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-container p{
+    font-size: 14px;
+    font-weight: lighter;
+}

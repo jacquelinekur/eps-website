@@ -2,6 +2,7 @@ import React from 'react'
 import cover_img from '../assets/Contact/Contact.png'
 import arrow from '../assets/arrow.png'
 import '../css/pages.css'
+import Footer from '../components/Footer'
 
 
 function Contact() {
@@ -12,7 +13,7 @@ function Contact() {
         <h4 className='pages-heading'>Contact Us</h4>
         <div className='contact-container'>
           <p className='contact-text'>
-            Phone Number
+            +62 8111 79292
             <br />
             adm.epsv@gmail.com
             <br /><br />
@@ -29,6 +30,7 @@ function Contact() {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
